@@ -90,7 +90,7 @@ void read_dht_data()
 
 int main( void )
 {
-	printf( "Raspberry Pi DHT11/DHT22 temperature/humidity test\n" );
+	printf( "Reading DHT11/DHT22 temperature/humidity...\n" );
 
 	if ( wiringPiSetup() == -1 )
 		exit( 1 );
